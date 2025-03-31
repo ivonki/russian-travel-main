@@ -3,3 +3,7 @@
     justify-content: center;
     align-items: end;
 }
+
+.header__lang-links:first-of-type {
+    column-gap: 18px;
+}
