@@ -1,7 +1,7 @@
 .cover__subtitle {
     display: flex;
     max-width: 360px;
-    z-index: 2;
+    z-index: 3;
     margin: 0 auto;
 
     font-weight: 400;
