@@ -6,3 +6,21 @@
     margin: 0 auto;
     padding-bottom: 24px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .footer {
+        max-width: 94%;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .footer {
+        max-width: 93%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .footer {
+        flex-direction: column;
+    }
+}

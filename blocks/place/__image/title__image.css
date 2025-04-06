@@ -1,5 +1,14 @@
 .place__image {
-    width: 440px;
+    /* max-width: 440px; */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     background-size: cover;
     background-position: center;
+}
+
+@media screen and (max-width: 480px) {
+    .place__image {
+        margin-bottom: 32px;
+    }
 }

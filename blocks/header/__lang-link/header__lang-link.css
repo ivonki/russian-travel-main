@@ -10,7 +10,10 @@
     font-size: 24px;
 }
 
-/* .header__lang-link:first-of-type {
-    text-decoration: underline;
-} */
+@media screen and (max-width: 425px) {
+    .header__lang-link {
+       line-height: 20px;
+       font-size: 18px;
+    }
+}
 

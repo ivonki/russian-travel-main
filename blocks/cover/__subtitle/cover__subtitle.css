@@ -9,3 +9,12 @@
     line-height: 22px;
     text-align: center;
 }
+
+@media screen and (max-width: 480px) {
+    .cover__subtitle {
+        max-width: 250px;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 0 auto 33px;
+    }
+}
